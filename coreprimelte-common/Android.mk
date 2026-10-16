@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter coreprimeltespr,$(TARGET_DEVICE)),)
+ifneq ($(filter coreprimeltespr cprimeltemtr,$(TARGET_DEVICE)),)
 
 endif
